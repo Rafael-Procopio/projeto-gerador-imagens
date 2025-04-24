@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: aliceblue;
+}
+
+ul{
+    list-style: none;
+    background: #000000;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    float: left;
+    font-size: 1.3em;
+    border-right: 1px solid rgb(40, 40, 40);
+}
+
+.ultimo{
+    border: none;
+}
+
+ul a{
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 4rem;
+    color: #fff;
+}
+
+ul a:hover{
+    background: grey;
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.destaque{
+    background-color: #000000;
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 3rem;
+}
+
+.destaque h1{
+    color: aliceblue;
+}
+
+.conteudo-texto{
+    background: #f1f1f1;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.conteudo-texto p{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.destaque-gerar{
+    background-color: #000000;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 3rem;
+}
+
+.destaque-gerar h1{
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+.conteudo-input{
+    background: #f1f1f1;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.conteudo-input input{
+    text-align: center;
+    width: 70%;
+    line-height: 2rem;
+    border-radius: 15px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.conteudo-input button{
+    width: 30%;
+    line-height: 1.3rem;
+    border-radius: 15px;
+    background: aliceblue;
+    margin-top: 10px;
+}
+
+.destaque-galeria{
+    background-color: #000000;
+    width: 25%;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 3rem;
+}
+
+.destaque-galeria h1{
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+.imagens{
+    width: 90%;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.imagens img{
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.imagens img:active{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    transform: scale(0.98);
+}
+
+img:focus {
+    outline: none;
+    box-shadow: 0 0 10px #3498db;
+}
+
+.centro{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.centro-baixo{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.conteudo-contato{
+    background: #f1f1f1;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.conteudo-contato input{
+    width: 70%;
+    line-height: 1.5rem;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.conteudo-contato button{
+    width: 35%;
+    line-height: 1.2rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-contato label{
+    font-weight: bold;
+}
+
+.conteudo-contato textarea{
+    margin-top: 20px;
+}
+
+.distancia{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 400px;
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer a{
+    color: antiquewhite;
+}
+
+footer a:hover{
+    color: grey;
+}
+
+.footer-gerar{
+    margin-top: 475px;
+}
+
+.footer-contato{
+    margin-top: 310px;
+}
